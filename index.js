@@ -5,7 +5,7 @@ export default function Home() {
     const [output, setOutput] = useState("");
 
     const executeCode = async () => {
-        const response = await fetch("https://your-backend-url.com/execute", {
+        const response = await fetch("https://mi-back-end-vojz.onrender.com", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
